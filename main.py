@@ -117,7 +117,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-PROVIDER = get_best_provider()
+PROVIDER = asyncio.run(get_best_provider())
 
 
 @app.get("/")
