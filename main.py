@@ -30,7 +30,6 @@ PROVIDERS_TO_MODELS = {
     Provider.Reka: "reka-core",
     Provider.Aura: "gpt-4o",
     Provider.Blackbox: "gpt-4o",
-    Provider.FreeChatgpt: "gpt-4o",
     Provider.Gemini: "gpt-4o",
     Provider.GigaChat: "gpt-4o",
     Provider.Groq: "gpt-4o",
